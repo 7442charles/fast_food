@@ -1,0 +1,58 @@
+bpdy{
+  background-image:url("images/grilled fish.jpg");
+}
+table, th, td {
+   border: px solid black;
+   backgrouncolor: #4E9391;
+   text-align: center;
+   border-radius: 5px;
+   border-color: #1FAC00;
+}
+h2{
+	text-align:center;
+	color:#551F60;
+	background-color:#
+}
+p{
+	background-color
+}
+
+
+th, td {
+	padding: 15px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+td{
+	height:50px;
+}
+
+@media only screen and (max-width: 270px) {
+        body {
+          margin: 10px auto;
+          position: static;
+          width: 270px;
+          background-color: #00A448;
+        }
+
+.button{
+	height: 10px;
+	width: 60px;
+    color: #9E0022;
+    display: inline - block;
+    font-size: 16px;
+}
+.input{
+  width:100%;
+  border-radius:10px;
+}
+image{
+  widt[h: 100px;
+  length:100px;
+}
+
+#footer1{
+  background-color:solid black;
+  color:white;
+}

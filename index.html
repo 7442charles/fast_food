@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+	 <title>homepage</title>
+	 <meta charset="UTF-8"/>
+   <link href='https://fonts.googleapis.com/css?family=Roboto:700,300' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+   <link rel ="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+   <script src="https://code.jquery.com/jquery-3.3.7.min.js"</script>
+   <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+   <script src="likejs.js"></script>
+   <script src="orderblink.js"></script>
+   <script src="type amination.js"></script>
+   <link rel="stylesheet" type="text/css" href="main.css"/>
+   <link rel="stylesheet" type="text/css" href="fastfood.css"/>
+	    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+
+ </head>
+
+	 <body>
+   <nav class="navbar">
+     <div class="container">
+       <div class="navbar-header">
+         <a class="navbar-brand" href="#">Cascade fast food.com</a>
+       </div>
+
+       <ul class="nav navbar-nav navbar-right">
+         <li><a href="sign up.html">Sign Up</a></li>
+         <li><a href="login.html">Sign In</a></li>
+         <li><a href="#">About</a></li>
+       </ul>
+     </div>
+   </nav>
+
+   <section class="jumbotron">
+     <div class="text-center">
+     <h1><b><div id="container"></div></b></h1>
+      </div>
+    </section>
+
+<hr>
+
+
+   <nav class="navbar">
+     <div class="container">
+       <ul class="nav navbar-nav navbar-left">
+         <li><a href="homepage.html"><button class="btn btn-primary">Home</button></a></li>
+         <li><a href="drinks.html"><button class="btn btn-primary">Drinks</button></a></li>
+         <li><a href="#"><button class="btn btn-primary">Pastries</button></a></li>
+         <li><a href="foreigndish.html"><button class="btn btn-primary">Foreign Dish</button></a></li>
+         <li><a href="cart.html"><button class="btn btn-primary"><span class="glyphicon glyphicon-shopping-cart"></span>
+           <span class="label-info"></span></button></a>
+         </li>
+       </ul>
+     </div>
+   </nav>
+
+<hr>
+
+<div id="main">
+   <section class="container">
+     <div class="row">
+       <figure class="col-sm-4">
+         <img onMouseOver="Blink();"  src="images/butterhorn danish.jpg" class="img-rounded" name="butter danish" style="height:300px;">
+         <div class="row">
+           <div class="text-center">
+        <button id="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+        <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-comment"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+        <button class="btn btn-primary">ORDER NOW </span></button>
+      </div>
+      </div>
+         <p>Butterhorn<br>now:ksh 120/= <br><i>was:ksh <del>155</del></i></p>
+       </figure>
+       <figure class="col-sm-4">
+         <img  onMouseOver="Blink();" src="images/indian chiken fry.jpg" class="img-rounded" style="height:300px;">
+         <div class="row">
+           <div class="text-center">
+        <button onclick="buttonclick()" id="label1" value="0"><span class="glyphicon glyphicon-thumbs-up"></span><span class="label label-success"></span></button>
+        <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span><span class="label label-success">999</span></button>
+        <button id="comment"><span class="glyphicon glyphicon-comment"></span><span class="label label-success"></span>999</button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+        <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
+      </div>
+      </div>
+          <p>Indian Chicken Fry<br>now:ksh 455/= <br><i>was:ksh <del>485/=</del></i></p>
+       </figure>
+
+       <figure class="col-sm-4">
+         <img onMouseOver="Blink();" src="images/italian beef.jpg" class="img-rounded" style="height:300px;">
+         <div class="row">
+           <div class="text-center">
+        <button id="like"><span class="glyphicon glyphicon-thumbs-up"></span><span class="label label-success">10</span></button>
+        <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-comment"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+        <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
+      </div>
+      </div>
+          <p>Italin Beef<br>now:ksh 455/= <br><i>was:ksh <del>485/=</del></i></p>
+       </figure>
+     </div>
+
+<hr>
+
+     <div class="row">
+       <figure class="col-sm-4">
+         <img onMouseOver="Blink();"  src="images/italian pasta.jpg" class="img-rounded" style="height:300px;">
+         <div class="row">
+           <div class="text-left">
+        <button id="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+        <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-comment"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+        <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
+      </div>
+      </div>
+         <p>Italian Pasta<br>now:ksh 200/= <br><i>was:ksh <del>215/=</del></i></p>
+       </figure>
+
+       <figure class="col-sm-4">
+         <img onMouseOver="Blink();" src="images/cherry danish.jpg" class="img-rounded" style="height:300px;">
+         <div class="row">
+           <div class="text-center">
+        <button id="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+        <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-comment"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+        <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
+      </div>
+      </div>
+         <p>Cherry Danish<br>now:ksh 375/= <br><i>was:ksh <del>400/=</del></i></p>
+       </figure>
+
+
+       <figure class="col-sm-4">
+         <img onMouseOver="Blink();" src="images/penne pasta.jpg" class="img-rounded" style="height:300px;">
+         <div class="row">
+           <div class="text-center">
+        <button id="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+        <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-comment"></span></button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
+        <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
+      </div>
+      </div>
+         <p>Rene Pasta<br>now:ksh 190/= <br><i>was:ksh <del>210/=</del></i></p>
+       </figure>
+     </div>
+   </div>
+   </section>
+<hr>
+		<p><i>Thanks for shopping with us</i></p>
+	 <footer id="footer1">We as the fast food .com are dedicated to serve your our customer until you are satisfaied.<br>for any improvement went we need to work on feel free to contact us.<br> Your fredback is highly appreciated.
+<p id ="contact"><u><i>contact us </u></i></p>
+<p id= "feedback">write to us</p>
+<form method="post">
+<input type="text" class="textarea" placeholder="feedback"></input>
+<br>
+<button type ="submit">send</button>
+</form>
+</footer>
+</div>
+ </body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+	 <title>Untitled</title>
+	 <meta charset="UTF-8"/>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:700,300' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+<link rel ="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+<script src="https://code.jquery.com/jquery-3.3.7.min.js"</script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	   <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+ </head>
+ <body>
+   <div class="jumbotron">
+     <div class="row">
+       <div class="center-block" style="width:700px;color:#000;"><h1>Cascade Restaurant</h1></br></div>
+       <div class="row">
+       <div class="text-center" style="color:#ccc;"><h2>login</h2></div>
+       </div>
+     </div>
+   </div>
+
+<form class="form-horizontal">
+<div class="container" style="background-color:#fff;">
+  <div class="row">
+    <div class="text-center">
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="phone no">Phone no:</label>
+    <div class="col-sm-5">
+      <input type="text" class="form-control" id="phone" placeholder="enter your phone number" required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label class="control-label col-sm-2" for="password">password:</label>
+    <div class="col-sm-5">
+      <input type="password" class="form-control" id="pwd" placeholder="enter your password" required>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class=" control-label col-sm-2 col-sm-10">
+      <div class="checkbox">
+        <label><input type="checkbox" checked> Remember me</input</label>
+      </div>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-2">
+      <button onclick= "login()" type="submit" class="btn btn-success btn-block">LOGIN</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+</form>
+<script type="text/javascript">
+var myPhone = 0701;
+var myPass = "cking";
+
+ var pass = document.getElementById('pwd');
+ var phoneNo = document.getElementById('phone');
+
+ function login() {
+   if (pass.value != "" && phoneNo.value != ""){
+     if (pass.value == myPass && phoneNo.value == myPhone) {
+       //console.log(pass.value, phoneNo.value);
+       location.href = "homepage.html";
+     }else {
+       alert ("password or phone number is incorrect");
+       location.href = "login.html";
+     }
+   }else {
+     alert ("please enter your details");
+     location.href = "login.html";
+   }
+ }
+ console.log(pass, phoneNo);
+</script>
+<script src=" orderblink.js"></script>
+</body>

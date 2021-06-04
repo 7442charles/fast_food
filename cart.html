@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  	<title>Cart</title>
+		<meta charset="UTF-8"/>
+		<link href='https://fonts.googleapis.com/css?family=Roboto:700,300' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<link rel ="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+		<script src="https://code.jquery.com/jquery-3.3.7.min.js"></script>
+		<script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script src="type amination.js"></script>
+		<script src="cart.js"></script>
+		<link rel="stylesheet" type="text/css" href="main.css"/>
+		<link rel="stylesheet" type="text/css" href="cart.css"/>
+		<link rel="stylesheet" type="text/css" href="fastfood.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+	</head>
+	<body>
+		<section class="jumbotron">
+			<div class="text-center">
+			<h1><b><div id="container" style="align:center; width:900px;"></div></b></h1>
+			</div>
+	 	</section>
+	 		<hr>
+
+		<div class="container">
+			<div class="row">
+				<div class="column-sm-3">
+						<div class="text-center">
+					<table>
+
+					<tr style="text-decoration:underline;">
+						<td >Item</td>
+						<td>Item Name</td>
+						<td> Item Price</td>
+						<td>Quantity</td>
+					</tr>
+
+						<tr class="imageRow">
+							<td class="Imagesrc"><img src="images/formosa cake.jpg" style="width:100px; height:100px; border-radius:10px;"></img></td>
+							<td class="imageName">formosa cake</td>
+							<td class="priceOfItem">ksh 120</td>
+							<td class="itemQuantity"><input type="number" name="itemQuantity" value="1"></input>
+						  <td><button class="btn-danger">Remove</button></td>
+						</tr>
+
+						<tr class="imageRow">
+							<td class="Imagesrc"><img src="images/grilled fish.jpg" style="width:100px; height:100px; border-radius:10px;"></img></td>
+							<td class="imageName">Grilled Fish</td>
+							<td class="priceOfItem">ksh 400</td>
+							<td class="itemQuantity"><input type="number" name="itemQuantity" value="1"></input>
+						  <td><button class="btn-danger">Remove</button></td>
+						</tr>
+					</table>
+				</div>
+			</div>
+			</div>
+		</div>
+
+<hr>
+<tr>
+	<td></td>
+	<td></td>
+<td>
+	<div class="total">
+	<div class="row">
+		<div class="column-sm-3">
+		<div class="text-center" style="padding-left:70px;" >
+			<h4><p><b>Total</b></p><h4>
+			<br>
+			<p>ksh120</p>
+		</div>
+	</div>
+</div>
+</div>
+</td>
+
+<td>
+<div class="row">
+	<div class="column-sm-3">
+		<div class="text-center">
+			<button class="btn btn-info" id="purchase" onclick="purchaseConfirm()">PURCHASE</button>
+		</div>
+	</div>
+</div>
+</td>
+</tr>
+
+<hr>
+
+</body>
+</html>
