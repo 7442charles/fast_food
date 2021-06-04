@@ -1,3 +1,5 @@
+//var appleDanish, butterChicken,rennePasta,butterHorn, Cherrydanish, grilledFish, italianBeef, italianPasta, pennePasta, indianChickenFry;
+
 
 
 
@@ -92,3 +94,41 @@ function WaitForATime(){
     clearInterval(elementTimer);
     elementTimer = setInterval(RemoveElements, 50);
 }
+
+
+let dishes = {
+    rennePasta:{
+        name:"Renne Pasta",
+        price:190
+    },
+    italianBeef:{
+        name:"Italian Beef",
+        prie:455
+    },
+    cherryDanish:{
+        name: "Cherry Danish",
+        price:375
+    },
+    italianPasta:{
+        name:"Itallian Pasta",
+        price:200
+    },
+    rennePasta:{
+        name:"Renne Pasta",
+        price:190
+    },
+    butterHorn:{
+        name:"Butter Horn",
+        price: 120
+    },
+    indianChickenFry: {
+        name:"Indian Chicken Fry",
+        price:455
+    },
+    pennePasta:{
+        name:"Penne Pasta",
+        price:120
+    },
+};
+/*console.log("butterHorn=>" + dishes.butterHorn.name);
+console.log("cherry danish price:" + dishes.cherryDanish.price);*/

@@ -1,6 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");
+  /*background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");*/
 }
 
 a, a:hover {
@@ -43,9 +43,9 @@ nav > p {
   color: #FFFFFF;
 }
 
-footer {
+/*footer {
   margin-top: 20px;
-}
+}*/
 
 footer div {
   display: flex;
@@ -75,6 +75,7 @@ section.container .row {
 .jumbotron {
   display: flex;
   align-items: center;
+  align-content: center;
   height: 350px;
   /*background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");*/
   background-size: cover;
@@ -128,4 +129,13 @@ section.container .row {
 
 .modal h3, .modal-body h4 {
   text-align: center;
+}
+
+.foot1 {
+  display: flex;
+  /*margin: auto;*/
+  background-color:grey;
+  align-content: center;
+  color: green;
+  /*opacity: 0.6;*/
 }
