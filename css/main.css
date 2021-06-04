@@ -1,5 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");
 }
 
 a, a:hover {
@@ -75,7 +76,7 @@ section.container .row {
   display: flex;
   align-items: center;
   height: 350px;
-  background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");
+  /*background-image: url("https://s3.amazonaws.com/codecademy-content/projects/make-a-website/lesson-4/buildawebsite.jpg");*/
   background-size: cover;
   background-position: center;
 }
