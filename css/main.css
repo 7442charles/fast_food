@@ -139,3 +139,13 @@ section.container .row {
   color: green;
   /*opacity: 0.6;*/
 }
+.btn-class{
+  display: flex;
+  flex-direction: row;
+}
+#class-btn1{
+  align-content: flex-start;
+}
+#class-btn2{
+  align-content: flex-end;
+}

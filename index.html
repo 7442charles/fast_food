@@ -7,7 +7,6 @@
    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
    <link rel ="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
    <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" type="text/css" href=""/>
 	    <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
 
  </head>
@@ -59,41 +58,62 @@
          <img onMouseOver="Blink();"  src="images/butterhorn danish.jpg" class="img-rounded" name="butter danish" style="height:300px;">
          <div class="row">
            <div class="text-center">
-        <button id="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+        <!--<button id="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
         <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span></button>
         <button id="comment"><span class="glyphicon glyphicon-comment"></span></button>
-        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
-        <button class="btn btn-primary">ORDER NOW </span></button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>-->
+        <div class="row">
+          <div class="btn-class">
+            <ul>
+            <li><button id="class-btn1" class="btn btn-primary btn-sm">ADD TO CART</span></button></li>
+            <li><button id="class-btn2" class="btn btn-primary btn-sm"> <span id = "blink"> ORDER NOW </span></button></li>
+            </ul>
+          </div>
+        </div>
       </div>
       </div>
-         <p>Butterhorn Danish<br>now:ksh 120/= <br><i>was:ksh <del>155</del></i></p>
+         <p><b>Danish<br>now:ksh 120/= <br><i>was:ksh <del>155</del></i></b></p>
        </figure>
        <figure class="col-sm-4">
          <img  onMouseOver="Blink();" src="images/indian chiken fry.jpg" class="img-rounded" style="height:300px;">
          <div class="row">
            <div class="text-center">
-        <button onclick="buttonclick()" id="label1" value="0"><span class="glyphicon glyphicon-thumbs-up"></span><span class="label label-success"></span></button>
+        <!--<button onclick="buttonclick()" id="label1" value="0"><span class="glyphicon glyphicon-thumbs-up"></span><span class="label label-success"></span></button>
         <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span><span class="label label-success">999</span></button>
         <button id="comment"><span class="glyphicon glyphicon-comment"></span><span class="label label-success"></span>999</button>
-        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
-        <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>-->
+        <div class="row">
+          <div class="btn-class">
+            <ul>
+              <li><button id="class-btn1" class="btn btn-primary btn-sm">ADD TO CART</span></button></li>
+              <li><button id="class-btn2" class="btn btn-primary btn-sm"> <span id = "blink"> ORDER NOW </span></button></li>
+            </ul>
+          </div>
+        </div> 
       </div>
       </div>
-          <p>Indian Chicken Fry<br>now:ksh 455/= <br><i>was:ksh <del>485/=</del></i></p>
+          <p><b>Indian Chicken Fry<br>now:ksh 455/= <br><i>was:ksh <del>485/=</del></i></b></p>
        </figure>
 
        <figure class="col-sm-4">
          <img onMouseOver="Blink();" src="images/italian beef.jpg" class="img-rounded" style="height:300px;">
          <div class="row">
            <div class="text-center">
-        <button id="like"><span class="glyphicon glyphicon-thumbs-up"></span><span class="label label-success">10</span></button>
+        <!--<button id="like"><span class="glyphicon glyphicon-thumbs-up"></span><span class="label label-success">10</span></button>
         <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span></button>
         <button id="comment"><span class="glyphicon glyphicon-comment"></span></button>
-        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
-        <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>-->
+        <div class="row">
+          <div class="btn-class">
+            <ul>
+              <li><button id="class-btn1" class="btn btn-primary btn-sm">ADD TO CART</span></button></li>
+              <li><button id="class-btn2" class="btn btn-primary btn-sm"> <span id = "blink"> ORDER NOW </span></button></li>
+            </ul>
+          </div>
+        </div>
       </div>
       </div>
-          <p>Italin Beef<br>now:ksh 455/= <br><i>was:ksh <del>485/=</del></i></p>
+          <p><b>Italin Beef<br>now:ksh 455/= <br><i>was:ksh <del>485/=</del></i></b></p>
        </figure>
      </div>
 
@@ -111,7 +131,7 @@
         <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
       </div>
       </div>
-         <p>Italian Pasta<br>now:ksh 200/= <br><i>was:ksh <del>215/=</del></i></p>
+         <p><b>Italian Pasta<br>now:ksh 200/= <br><i>was:ksh <del>215/=</del></i></b></p>
        </figure>
 
        <figure class="col-sm-4">
@@ -125,7 +145,7 @@
         <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
       </div>
       </div>
-         <p>Cherry Danish<br>now:ksh 375/= <br><i>was:ksh <del>400/=</del></i></p>
+         <p><b>Cherry Danish<br>now:ksh 375/= <br><i>was:ksh <del>400/=</del></i></b></p>
        </figure>
 
 
@@ -133,14 +153,17 @@
          <img onMouseOver="Blink();" src="images/penne pasta.jpg" class="img-rounded" style="height:300px;">
          <div class="row">
            <div class="text-center">
-        <button id="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
+       <!--<button id="like"><span class="glyphicon glyphicon-thumbs-up"></span></button>
         <button id="dislike"><span class="glyphicon glyphicon-thumbs-down"></span></button>
         <button id="comment"><span class="glyphicon glyphicon-comment"></span></button>
-        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>
-        <button class="btn btn-primary"> <span id = "blink"> ORDER NOW </span></button>
+        <button id="comment"><span class="glyphicon glyphicon-shopping-cart"></span></button>-->
+        <ul>
+        <li><button id="class-btn1" class="btn btn-primary btn-sm">ADD TO CART</span></button></li>
+        <li><button class="btn btn-primary btn-sm"> <span id = "blink"> ORDER NOW </span></button></li>
+        </ul>
       </div>
       </div>
-         <p>Rene Pasta<br>now:ksh 190/= <br><i>was:ksh <del>210/=</del></i></p>
+         <p><b>Rene Pasta<br>now:ksh 190/= <br><i>was:ksh <del>210/=</del></i></b></p>
        </figure>
      </div>
    </div>
