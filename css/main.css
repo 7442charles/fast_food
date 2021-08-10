@@ -149,3 +149,10 @@ section.container .row {
 #class-btn2{
   align-content: flex-end;
 }
+.itemName{
+  font-size: 17px;
+  text-decoration: none;
+}
+.prices{
+  text-align: left;
+}

@@ -130,5 +130,4 @@ let dishes = {
         price:120
     },
 };
-/*console.log("butterHorn=>" + dishes.butterHorn.name);
-console.log("cherry danish price:" + dishes.cherryDanish.price);*/
+
